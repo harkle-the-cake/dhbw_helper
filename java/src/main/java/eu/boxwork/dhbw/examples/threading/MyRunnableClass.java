@@ -11,7 +11,7 @@ public class MyRunnableClass implements Runnable {
      */
     public void run ()
     {
-        System.out.println ("Am I a threaded method ?... lets wait for a second, not is: "+Instant.now()) ;
+        System.out.println ("Am I a threaded method ?... lets wait for a second: "+Instant.now()) ;
 
         try
         {
