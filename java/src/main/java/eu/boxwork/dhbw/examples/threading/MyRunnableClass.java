@@ -1,5 +1,7 @@
 package eu.boxwork.dhbw.examples.threading;
 
+import java.time.Instant;
+
 /**
  * This class is used as an example for Threading
  */
@@ -11,7 +13,7 @@ public class MyRunnableClass implements Runnable {
      */
     public void run ()
     {
-        System.out.println ("Am I a threaded method ?... lets wait for a second: "+Instant.now()) ;
+        System.out.println ("Am I a threaded method ?... lets wait for a second: "+ Instant.now()) ;
 
         try
         {
