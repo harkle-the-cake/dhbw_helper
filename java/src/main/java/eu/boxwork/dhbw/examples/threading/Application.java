@@ -18,6 +18,8 @@ public class Application {
         // now we start the runner
         runner.start() ; // this calls the run () Method in the runnable class object
         // as a main , we wait for the thread to finish
+
+
         runner.join() ;
     }
 }
